@@ -44,8 +44,18 @@ else{
 
 // Assignment 5
 
+var inputNum3 = +prompt('Input a number to check whether it is divisible by 3 or not');
 
-// Assignment 6 
+if(inputNum3 % 3 !== 0){
+    console.log('Number is not divisible by 3');
+}
+else {
+    console.log('Number is divisible by 3');
+}
+
+// Assignment 6
+
+
 // Assignment 7 
 // Assignment 8 
 // Assignment 9 
