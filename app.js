@@ -56,7 +56,25 @@ else {
 // Assignment 6
 
 
-// Assignment 7 
-// Assignment 8 
+// Assignment 7
+
+
+// Assignment 8
+
+var time = prompt('Input time in 24 hours clock format i.e 19:00');
+
+if(time >= '00:00' && time < '12:00'){
+    console.log('Good Morning!');
+}
+else if(time >= '12:00' && time < '17:00'){
+    console.log('Good Afternoon!');
+}
+else if(time >= '17:00' && time < '21:00'){
+    console.log('Good Evening!');
+}
+else(time >= '21:00' && time < '23:59') {
+    console.log('Good Night!');
+}
+
 // Assignment 9 
 // Assignment 10 
