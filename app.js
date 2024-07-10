@@ -72,7 +72,7 @@ else if(time >= '12:00' && time < '17:00'){
 else if(time >= '17:00' && time < '21:00'){
     console.log('Good Evening!');
 }
-else(time >= '21:00' && time < '23:59') {
+else(time >= '21:00' && time < '23:59'){
     console.log('Good Night!');
 }
 
