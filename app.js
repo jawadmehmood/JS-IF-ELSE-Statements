@@ -139,7 +139,7 @@ else{
 var int1 = prompt('Enter first integer');
 var int2 = prompt('Enter second integer');
 
-if(int1 === null || int1 === '' || int2 === null || int2 === ''){
+if(int1.length < 0 || int2.length < 0){
     console.log('Enter values');
 }
 else{
@@ -210,3 +210,85 @@ else{
 
 }
 
+// Assignment 17 
+
+var character = prompt('Enter a character');
+
+if(character.length > 1 || character.length < 1){
+    console.log('Enter only one alphabet');
+}
+else{
+    if(character === 'a' || character === 'e' || character === 'i' || character === 'o' || character === 'u'){
+        console.log('It is a vowel');
+    }
+    else{
+        console.log('It is a consonant');
+    }
+}
+
+// Assignment 18
+
+var num1 = 10;
+var num2 = 8;
+
+console.log(num1 !== num2);
+
+// Assignment 19
+
+var month = +prompt('Enter the number of a month');
+
+if(month < 1 || month > 12){
+    console.log('Enter a value between 1 and 12');
+}
+else{
+    if(month === 1){
+        alert('January');
+    }
+    else if(month === 2){
+        alert('February');
+    }
+    else if(month === 3){
+        alert('March');
+    }
+    else if(month === 4){
+        alert('April');
+    }
+    else if(month === 5){
+        alert('May');
+    }
+    else if(month === 6){
+        alert('June');
+    }
+    else if(month === 7){
+        alert('July');
+    }
+    else if(month === 8){
+        alert('August');
+    }
+    else if(month === 9){
+        alert('September');
+    }
+    else if(month === 10){
+        alert('October');
+    }
+    else if(month === 11){
+        alert('November');
+    }
+    else if(month === 12){
+        alert('December');
+    }
+    else{
+
+    }
+}
+
+// Assignment 20
+
+var enterAge = +prompt('Enter your age');
+
+if(enterAge < 18){
+    console.log('Too Young!');
+}
+else{
+    console.log('Old Enough!');
+}
