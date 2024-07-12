@@ -58,6 +58,28 @@ else {
 
 // Assignment 7
 
+var inputNum5 = +prompt('Enter first number');
+var inputNum6 = +prompt('Enter second number');
+var operator = prompt('Enter arithmetic operator you want to perform i.e "+" , "-" , "*" , "/" or "%"');
+
+if(operator === '+'){
+    console.log(inputNum5 + inputNum6);
+}
+else if(operator === '-'){
+    console.log(inputNum5 - inputNum6);
+}
+else if(operator === '*'){
+    console.log(inputNum5 * inputNum6);
+}
+else if(operator === '/'){
+    console.log(inputNum5 / inputNum6);
+}
+else if(operator === '%'){
+    console.log(inputNum5 % inputNum6);
+}
+else{
+
+}
 
 // Assignment 8
 
